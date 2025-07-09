@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <style>p { font-size: 25px;}</style>
+  <style> label{font-size: 22px; }</style>
+  <meta charset="UTF-8" />
+  <title>Harry Potter</title>
+  <script src="harry.js" defer></script>
+  <link rel="stylesheet" href="harry2.css" />
+</head>
+<body>
+  <img src="imagens/fundinhe.jpg" alt="Fundo" class="fundo">
+
+ <button class="btn-voltar" onclick="window.location.href='index.html'">voltar para o menu inicial</button>
+
+  <h1>Qual é a sua casa de Hogwarts?</h1>
+  <form id="quiz">
+
+    <div>
+      <p style="font-size: 25px;">1. Você recebe uma carta para estudar em Hogwarts. O que faz?</p>
+      <label style="font-size: 22px;"><input type="radio" name="q1" value="grifinoria"> Grita de empolgação e já começa a imaginar as aventuras.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q1" value="sonserina"> Fica animado, mas já pensa em como se destacar e fazer aliados.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q1" value="corvinal"> Faz uma lista de livros e começa a estudar antes de chegar.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q1" value="lufalufa"> Chora de felicidade e conta para todos com orgulho.</label>
+    </div>
+
+    <div>
+      <p>2. Você encontra o Espelho de Ojesed. O que vê?
+        <a class="link-imagem" href="https://www.google.com/search?q=espelho+de+ojesed&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q2" value="grifinoria"> Uma grande conquista heroica, como vencer Voldemort.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q2" value="sonserina"> Fama, poder e respeito absoluto.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q2" value="corvinal"> Prêmios por descobertas brilhantes.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q2" value="lufalufa"> Todos que ama juntos, felizes e seguros.</label>
+    </div>
+
+    <div>
+      <p>3. Você é chamado(a) para a Floresta Proibida à noite como castigo. O que faz?
+        <a class="link-imagem" href="https://www.google.com/search?q=floresta+proibida+harry+potter&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q3" value="grifinoria"> Vai com coragem, pronto(a) pra qualquer perigo.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q3" value="sonserina"> Vai com plano para sair ileso.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q3" value="corvinal"> Leva lanterna, livros, feitiços e prepara-se bem.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q3" value="lufalufa"> Fica com medo, mas não abandona os colegas.</label>
+    </div>
+
+    <div>
+      <p>4. Um trasgo invade o castelo. O que você faz?
+        <a class="link-imagem" href="https://www.google.com/search?q=trasgo+harry+potter&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q4" value="grifinoria"> Corre pra ajudar, mesmo com risco.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q4" value="sonserina"> Se esconde bem, esperando o perigo passar.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q4" value="corvinal"> Pensa rápido em um feitiço útil.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q4" value="lufalufa"> Avisa um professor e mantém a calma.</label>
+    </div>
+
+    <div>
+      <p>5. Você ganha a chance de competir no Torneio Tribruxo. Aceita?
+        <a class="link-imagem" href="https://www.google.com/search?q=torneio+tribruxo&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;" ><input type="radio" name="q5" value="grifinoria"> Sim! Pela honra e adrenalina.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q5" value="sonserina"> Se for vantagem, com certeza.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q5" value="corvinal"> Se tiver tempo para estudar antes.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q5" value="lufalufa"> Sim, mas com humildade e foco.</label>
+    </div>
+
+    <div>
+      <p>6. Você vê alguém com um colar amaldiçoado. O que faz?</p>
+      <label style="font-size: 22px;"><input type="radio" name="q6" value="grifinoria"> Corre pra ajudar, mesmo com risco.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q6" value="sonserina"> Se afasta e observa.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q6" value="corvinal"> Analisa a maldição com lógica.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q6" value="lufalufa"> Chama ajuda e fica ao lado da vítima.</label>
+    </div>
+
+    <div>
+      <p>7. Você encontra a Câmara Secreta aberta. Entra?
+        <a class="link-imagem" href="https://www.google.com/search?q=câmara+secreta+harry+potter&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q7" value="grifinoria"> Entra sem pensar, varinha em punho.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q7" value="sonserina"> Entra se for útil pra você.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q7" value="corvinal"> Só entra com um plano estratégico.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q7" value="lufalufa"> Vai se for com amigos, em segurança.</label>
+    </div>
+
+    <div>
+      <p>8. Você recebe um Vira-Tempo. O que faz com ele?
+        <a class="link-imagem" href="https://www.google.com/search?q=vira+tempo+harry+potter&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q8" value="grifinoria"> Vive tudo ao máximo.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q8" value="sonserina"> Usa para manipular situações.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q8" value="corvinal"> Aprende tudo o que puder com ele.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q8" value="lufalufa"> Usa com cuidado e responsabilidade.</label>
+    </div>
+
+    <div>
+      <p>9. Você vê Dobby sendo maltratado. O que faz?
+        <a class="link-imagem" href="https://www.google.com/search?q=dobby+harry+potter&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q9" value="grifinoria"> Enfrenta os Malfoy na hora.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q9" value="sonserina"> Finge que não viu, mas guarda informação.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q9" value="corvinal"> Busca forma legal de libertar ele.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q9" value="lufalufa"> Conforta Dobby e tenta ajudá-lo.</label>
+    </div>
+
+    <div>
+      <p>10. Alguém te oferece um feitiço das Artes das Trevas. Você aceita?</p>
+      <label style="font-size: 22px;"><input type="radio" name="q10" value="grifinoria"> Recusa e denuncia.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q10" value="sonserina"> Analisa os benefícios antes.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q10" value="corvinal"> Pesquisa tudo antes de decidir.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q10" value="lufalufa"> Recusa e se afasta imediatamente.</label>
+    </div>
+
+    <div>
+      <p>11. Você está na Batalha de Hogwarts. Como luta?
+        <a class="link-imagem" href="https://www.google.com/search?q=batalha+de+hogwarts&tbm=isch" target="_blank">Ver imagem</a>
+      </p>
+      <label style="font-size: 22px;"><input type="radio" name="q11" value="grifinoria"> Vai pra linha de frente com bravura.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q11" value="sonserina"> Protege os seus com estratégia.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q11" value="corvinal"> Usa feitiços inteligentes à distância.</label><br>
+      <label style="font-size: 22px;"><input type="radio" name="q11" value="lufalufa"> Luta com lealdade ao lado dos amigos.</label>
+    </div>
+
+    <button type="button" onclick="calcularResultado()">Ver minha casa</button>
+  </form>
+
+  <h2 id="resultado"></h2>
+
+  <div id="cartas" style="display: none;">
+    <div id="carta-grifinoria" class="carta">
+      <h3>Parabéns, você é da Grifinória!</h3>
+      <img src="imagens/grifinoria.png" alt="Grifinória" class="carta-imagem">
+    </div>
+    <div id="carta-sonserina" class="carta">
+      <h3>Você foi escolhido pela Sonserina!</h3>
+      <img src="imagens/sonserina.png" alt="Sonserina" class="carta-imagem">
+    </div>
+    <div id="carta-corvinal" class="carta">
+      <h3>Corvinal é sua casa!</h3>
+      <img src="imagens/corvinal.png" alt="Corvinal" class="carta-imagem">
+    </div>
+    <div id="carta-lufalufa" class="carta">
+      <h3>Lufa-Lufa te acolheu!</h3>
+      <img src="imagens/lufa-lufa.png" alt="Lufa-Lufa" class="carta-imagem">
+    </div>
+  </div>
+
+</body>
+</html>

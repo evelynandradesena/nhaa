@@ -1,0 +1,171 @@
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #8bf9fc;
+  text-shadow: 0 0 10px #8bf9fc, 0 0 20px #3643fa, 0 0 30px #4b37ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("imagens/fundo_oficial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+   color: #8bf9fc;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+p{
+    color: white;
+}
+
+button{
+    border-radius: 30px;
+}
+
+.todos{
+    text-align: center;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sorry{
+     position: absolute;
+     bottom: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.sorry{
+    background-color: #513bf5;
+    border: none;
+}
+
+.todos{
+    .todos:nth-child(1) {
+  background-image: url("imagens/steven.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+button{
+    margin: 10px;
+}
+
+.Steven{
+    background-image: url(imagens/steven.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Steven{
+    width: 300px;
+    height: 90px;
+}
+
+.Steven{
+    text-align: left;
+    padding-left: 170px;
+}
+
+.Steven{
+    color: white;
+    font-size: 17px;
+}
+
+.harry{
+    background-image: url(imagens/fundo1.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.harry{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.harry{
+    width: 300px;
+    height: 90px;
+}
+
+.harry{
+    color:  #ffd700;
+    font-size: 20px;
+}
+
+.harry{
+    
+    padding: 40px;
+}
+
+.mlp{
+    background-image: url(imagens/talvez.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mlp{
+    width: 300px;
+    height: 90px;
+}
+
+
+
+.Steven{
+    font-family: comic sans MS, cursive;
+}
+
+.mlp{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+button {
+    border: none;
+}
+
+button.Steven {
+  transition: transform 0.3s ease;
+}
+button.Steven:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+button.harry {
+  color: gold;
+  transition: color 0.8s ease, text-shadow 0.8s ease;
+  text-shadow: 0 0 10px gold;
+}
+
+button.harry:hover {
+  color: transparent;
+  text-shadow: 0 0 30px gold;
+  transition: color 1s ease, text-shadow 1s ease;
+}
+
+button.mlp {
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+}
+button.mlp:hover {
+  box-shadow: 0 0 15px 5px #ffe600;
+  filter: brightness(1.2);
+}

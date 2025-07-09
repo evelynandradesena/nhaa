@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("imagens/fundo\ do\ harry1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.botao-triangulo {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid white;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.botao-triangulo::after {
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.botao-triangulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 260px solid transparent; /* Deixa invisível */
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+}

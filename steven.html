@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steven Universo</title>
+  <link rel="stylesheet" href="steven.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+  <script>
+    function mostrarTexto(id) {
+      var textos = document.getElementsByClassName('texto');
+      for (var i = 0; i < textos.length; i++) {
+        textos[i].style.display = 'none';
+      }
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+
+  <h1 class="titulo">site de Steven Universo</h1>
+  <p class="subtitulo">escolha uma categoria e entenda um pouco sobre Steven Universo</p>
+  <button class="btn-voltar" onclick="window.location.href='index.html'">voltar para o menu inicial</button>
+
+  <table class="tabela-categorias">
+    <tr>
+      <th>Crystal Gems</th>
+      <th>Gems</th>
+      <th>Fusões</th>
+      <th>Colônias</th>
+    </tr>
+    <tr>
+      <td>
+        <button onclick="mostrarTexto('texto1')">O que são</button><br>
+        <button onclick="mostrarTexto('texto2')">Propósito</button><br>
+        <button onclick="mostrarTexto('texto3')">Como estão</button><br>
+        <button onclick="mostrarTexto('texto4')">Tipos</button>
+      </td>
+      <td>
+        <button onclick="mostrarTexto('texto5')">O que são</button><br>
+        <button onclick="mostrarTexto('texto6')">Propósito</button><br>
+        <button onclick="mostrarTexto('texto7')">Como estão</button><br>
+        <button onclick="mostrarTexto('texto8')">Tipos</button>
+      </td>
+      <td>
+        <button onclick="mostrarTexto('texto9')">O que são</button><br>
+        <button onclick="mostrarTexto('texto10')">Propósito</button><br>
+        <button onclick="mostrarTexto('texto11')">Como estão</button><br>
+        <button onclick="mostrarTexto('texto12')">Tipos</button>
+      </td>
+      <td>
+        <button onclick="mostrarTexto('texto13')">O que são</button><br>
+        <button onclick="mostrarTexto('texto14')">Propósito</button><br>
+        <button onclick="mostrarTexto('texto15')">Como estão</button><br>
+        <button onclick="mostrarTexto('texto16')">Tipos</button>
+      </td>
+    </tr>
+  </table>
+
+  <div id="texto1" class="texto" style="display:none">
+    As Crystal Gems são um grupo de Gems que se rebelaram contra o sistema autoritário de Homeworld para proteger a Terra. Elas acreditam na liberdade de escolha, no valor da vida e na convivência entre diferentes seres. Ao invés de seguir ordens cegamente, elas se unem por ideais e lutam por justiça. Vivem juntas na Terra, onde treinam, cuidam do planeta e enfrentam ameaças que possam surgir. Elas formam uma espécie de família, guiada por sentimentos, confiança e companheirismo. Seu principal objetivo é impedir que a Terra seja destruída e que outras Gems sejam forçadas a seguir funções que não escolheram.
+  </div>
+
+  <div id="texto2" class="texto" style="display:none">
+    As Crystal Gems começaram como uma rebelião liderada por Rose Quartz para proteger a Terra. O planeta estava sendo colonizado por Homeworld, o que destruiria toda a vida existente. Rose se encantou pela Terra e acreditava que cada forma de vida tinha valor. Por isso, ela decidiu lutar contra sua própria espécie.
+
+    Outras Gems que também queriam liberdade e não se encaixavam nas regras rígidas de Homeworld se juntaram a ela, como Pearl, Garnet e depois Amethyst. Juntas, elas formaram as Crystal Gems com o propósito de defender a Terra, valorizar a individualidade e proteger quem vive aqui.
+  </div>
+
+  <div id="texto3" class="texto" style="display:none">
+    Depois da 5ª temporada, as Crystal Gems entram em um período de paz e reconstrução. Com o fim do domínio das Diamantes e a verdade sobre Rose Quartz revelada, Steven e as Crystal Gems começam a ajudar outras Gems a se libertarem das regras de Homeworld e descobrirem quem realmente são.
+
+    Garnet, Amethyst e Pearl continuam protegendo a Terra, mas agora também ajudam Gems de outras colônias a se adaptarem à liberdade. Elas trabalham para curar Gems corrompidas, restaurar laços e criar um ambiente onde todas possam viver sem medo, sem hierarquia e com escolhas próprias.
+
+    O foco deixa de ser a guerra e vira a cura, a convivência e o crescimento pessoal de cada personagem.
+  </div>
+
+  <div id="texto4" class="texto" style="display:none">
+    Rose Quartz – Líder da rebelião e fundadora das Crystal Gems.<br>
+    Pérola – Seguidora leal de Rose, habilidosa em combate e tecnologia.<br>
+    Garnet – Fusão estável de Rubi e Safira, representa amor e equilíbrio.<br>
+    Ametista – Uma Quartz nascida na Terra, divertida e poderosa.<br>
+    Bismuto – Ferreiro rebelde que criava armas para as Crystal Gems.<br>
+    Peridoto – Inicialmente enviada por Homeworld, mas muda de lado.<br>
+    Lápis Lazúli – Gem poderosa com controle da água, se junta às Crystal Gems após um passado difícil.<br>
+    Steven – Meio humano, meio Gem, filho de Rose Quartz, herda sua missão de proteger a Terra.<br><br>
+    Opala – Fusão de Pérola e Ametista, combina arco e força.<br>
+    Sugilita – Fusão de Garnet e Ametista, muito forte e agressiva.<br>
+    Alexandrita – Fusão de Garnet, Pérola e Ametista, poderosa e versátil.<br>
+    Stevonnie – Fusão de Steven e Connie, representa união entre humanos e Gems.<br>
+    Russet – Fusão de Garnet e Pérola, equilibrada e inteligente.<br>
+    Sardônica – Fusão de Ametista e Peridoto, ágil e criativa.<br>
+    Malachita – Fusão instável de Lápis Lazúli e Peridoto, poderosa e destrutiva.
+  </div>
+
+  <div id="texto5" class="texto" style="display:none">
+    As Gems são seres mágicos e extraterrestres compostos por luz. Sua verdadeira forma está contida em uma pedra preciosa, que é o núcleo de sua existência. O corpo que vemos é apenas uma projeção física criada a partir da pedra. Elas são produzidas artificialmente em planetas colonizados, sem processo natural de nascimento. Já “nascem” com uma função específica, como lutar, comandar ou servir, e não envelhecem. A sociedade das Gems é controlada por uma hierarquia rígida, onde cada tipo de Gem tem seu lugar. Caso o corpo delas seja destruído, podem se regenerar a partir da pedra, mas se a pedra for danificada, podem se corromper ou desaparecer completamente.
+  </div>
+
+  <div id="texto6" class="texto" style="display:none">
+    As Gems de Homeworld foram criadas para servir a um grande império intergaláctico, com o propósito de expandir seu domínio pelo universo. Cada Gem nasce com uma função específica e deve cumpri-la sem questionar. Elas colonizam planetas, extraem recursos e usam essas colônias para criar mais Gems, mesmo que isso destrua totalmente o planeta em questão.
+
+    A sociedade das Gems é rígida, baseada em hierarquia e obediência. Elas não valorizam a individualidade, apenas a eficiência. Tudo é controlado por diamantes que comandam a ordem e a expansão do império. O objetivo principal das Gems é crescer, dominar e manter o controle absoluto sobre todas as formas de existência.
+  </div>
+
+  <div id="texto7" class="texto" style="display:none">
+    As Gems, que antes faziam parte do império de Homeworld, também passam por grandes mudanças depois da 5ª temporada. Muitas delas eram controladas ou obrigadas a seguir ordens, mas com o fim da autoridade das Diamantes e a influência de Steven, elas começam a se libertar.
+
+    Algumas retornam à Homeworld, que passa a ser um lugar mais aberto e menos opressor, liderado por uma Diamante Branco arrependida e disposta a mudar. Outras decidem ficar na Terra ou viajar pelo universo para encontrar seu próprio caminho. Gems corrompidas são curadas com a ajuda de Steven e das Diamantes, podendo viver normalmente de novo.
+
+    Cada uma começa a explorar sua identidade além do papel que foi forçada a cumprir, aprendendo a viver com mais liberdade, emoção e escolha.
+  </div>
+
+  <div id="texto8" class="texto" style="display:none">
+    Diamantes<br>
+    Diamante Branco – Líder suprema, mantém ordem e controle do império.<br>
+    Diamante Amarelo – Focada em eficiência, disciplina e comando militar.<br>
+    Diamante Azul – Líder emocional, começa a questionar as regras rígidas.<br>
+    Diamante Rosa – Na verdade Rose Quartz, fundadora da rebelião.<br><br>
+    Guerreiras e Soldadas<br>
+    Rubis – Soldadas rápidas e impulsivas, usadas para reconhecimento, patrulha e ataque.<br>
+    Safiras – Gems com poder de prever o futuro, usadas para estratégias e coleta de informações.<br>
+    Jaspers – Guerreiros de elite, fortes e agressivos, força bruta em batalhas e controle.<br>
+    Cornelianas – Gems de combate com habilidades físicas avançadas, parte das forças militares.<br><br>
+    Assistentes e Técnicas<br>
+    Pérolas – Assistentes pessoais e protetoras leais, especialistas em combate com lança e tecnologia.<br>
+    Peridotos – Técnicas em tecnologia, robótica e análise, inicialmente enviadas por Homeworld.<br>
+    Zircônios – Advogadas e mediadoras legais, responsáveis por julgamentos e burocracia.<br>
+    Heliodoros – Mensageiras e emissárias, comunicam entre colônias e Homeworld.<br><br>
+    Especialistas e Outras Funções<br>
+    Ametistas – Guerreiras versáteis, nascidas na Terra, com força bruta e mudança de forma.<br>
+    Bismutos – Ferreiros e criadores de armas para as Crystal Gems.<br>
+    Apatitas – Especialistas em cristalização e manipulação de minerais, usadas em construção e controle ambiental.<br>
+    Lápis Lazúli – Controladoras de água e vento, com poderes para criar barreiras e transporte rápido.<br>
+    Fluoritas – Gems pacíficas, frequentemente em funções de apoio e cura.
+  </div>
+
+  <div id="texto9" class="texto" style="display:none">
+    A fusão é a união de duas ou mais Gems em um só corpo, que resulta em uma nova forma com características físicas, mentais e emocionais combinadas. Para que a fusão aconteça, é preciso sintonia, confiança e equilíbrio entre as Gems envolvidas. A fusão representa muito mais do que força física — ela mostra o vínculo e a conexão entre as personagens. Essa forma unida tem habilidades únicas, voz própria e identidade distinta. Em Homeworld, fusões são permitidas apenas em situações específicas e entre Gems da mesma função, sendo vistas como ferramentas. Já entre as Crystal Gems, a fusão é tratada como algo simbólico e poderoso, representando amor, respeito, união e liberdade.
+  </div>
+
+  <div id="texto10" class="texto" style="display:none">
+    O propósito original das fusões entre as Gems de Homeworld era servir como uma forma de aumentar poder e eficiência em batalha ou em tarefas específicas. Quando duas ou mais Gems se fundem, elas formam uma única entidade mais forte, combinando habilidades e força física. Para Homeworld, isso era algo estratégico e prático, principalmente entre Gems da mesma categoria.
+
+    No entanto, as fusões também passaram a representar algo além disso. Para as Crystal Gems, a fusão virou uma forma de conexão emocional, confiança e amor. Elas mostraram que a fusão podia ser uma escolha livre, um símbolo de união verdadeira entre indivíduos diferentes, algo que Homeworld via como desvio ou até uma ameaça.
+  </div>
+
+  <div id="texto11" class="texto" style="display:none">
+    Depois da 5ª temporada, as fusões passam a ser vistas com mais respeito e liberdade. Antes, em Homeworld, fusões eram permitidas só entre Gems da mesma categoria e com finalidades específicas, como combate ou trabalho. Mas com as mudanças trazidas por Steven e pelas Crystal Gems, isso começa a mudar.
+
+    Fusões agora representam conexão, confiança e liberdade de escolha. Gems de diferentes tipos passam a se fundir sem medo, mostrando que a fusão pode ser algo emocional, criativo e pessoal. Ela deixa de ser uma ferramenta e se torna uma forma de expressão e relacionamento verdadeiro entre Gems que se entendem e se respeitam.
+  </div>
+
+  <div id="texto12" class="texto" style="display:none">
+    Opala – Fusão de Pérola e Ametista; combina habilidade com arco e força física.<br>
+    Sugilita – Fusão de Garnet e Ametista; muito forte e agressiva, usada para ataques pesados.<br>
+    Alexandrita – Fusão de Garnet, Pérola e Ametista; poderosa e versátil, reúne várias habilidades.<br>
+    Stevonnie – Fusão de Steven e Connie; representa união entre humanos e Gems, com agilidade e habilidades combinadas.<br>
+    Russet – Fusão de Garnet e Pérola; equilibrada e inteligente.<br>
+    Sardônica – Fusão de Ametista e Peridoto; ágil e criativa, usada para infiltração.<br>
+    Malachita – Fusão instável de Lápis Lazúli e Peridoto; poderosa e destrutiva, difícil de controlar.<br>
+    Rainbow Quartz – Fusão de Rose Quartz e Pérola; elegante e habilidosa.<br>
+    Rainbow Quartz 2.0 – Fusão de Steven e Pérola; similar à original, com toque humano.<br>
+    Jasper e Lápis Lazúli (Malachita) – Fusão instável, marcada por conflito interno.<br>
+    Fluorita – Fusão de várias Gems, pacífica e poderosa.
+  </div>
+
+  <div id="texto13" class="texto" style="display:none">
+    As colônias Gems são planetas que foram escolhidos pelo império de Homeworld para extração de recursos e criação de novas Gems. Quando um planeta é colonizado, grandes estruturas são construídas para transformar o ambiente e retirar sua energia. Nesse processo, a natureza é destruída, a vida local é ignorada e o planeta se torna apenas uma fábrica de Gems. Tudo é feito de forma controlada e sem preocupação com os danos causados. A criação em massa de Gems enfraquece o planeta e pode levá-lo à completa destruição. Esses locais são parte da expansão do império, que visa conquistar e controlar todo o universo.
+  </div>
+
+  <div id="texto14" class="texto" style="display:none">
+    O propósito das colônias para as Gems de Homeworld era expandir o império e garantir a criação de mais Gems. Elas escolhiam planetas ricos em recursos, como a Terra, e os transformavam em centros de extração. Esses recursos eram usados para gerar novas Gems e fortalecer ainda mais o poder de Homeworld.
+
+    Durante esse processo, o planeta era lentamente destruído, pois toda a vida e equilíbrio natural eram ignorados. Para Homeworld, colônias não eram lares, mas ferramentas descartáveis para crescer o império e manter a produção em massa de Gems sob o controle dos diamantes.
+  </div>
+
+  <div id="texto15" class="texto" style="display:none">
+    Depois da 5ª temporada, as colônias de Homeworld deixam de ser usadas para exploração e destruição. Com a mudança de pensamento das Diamantes e a influência de Steven, o império começa a repensar suas ações.
+
+    A Terra se torna um símbolo dessa nova era, mostrando que é possível respeitar a vida de um planeta ao invés de destruí-lo. Outras colônias passam por transformações parecidas, sendo abandonadas como centros de extração e podendo, com o tempo, se tornar lugares de liberdade e reconstrução.
+
+    O foco deixa de ser expandir o império e passa a ser reparar os danos feitos, preservar os planetas e dar às Gems e aos seres desses lugares a chance de viverem em paz.
+  </div>
+
+  <div id="texto16" class="texto" style="display:none">
+    Colônias de Extração – Planetas usados por Homeworld para extrair recursos minerais e criar novas Gems, destruindo o ambiente local.<br>
+    Colônias de Pesquisa – Locais onde Gems estudam tecnologias, biologia e aprimoram suas habilidades.<br>
+    Colônias Militares – Bases estratégicas para treinar soldados e organizar ataques.<br>
+    Colônias de Habitação – Espaços para Gems viverem e se reproduzirem, seguindo a hierarquia de Homeworld.<br>
+    Colônias Abandonadas – Planetas que foram explorados e destruídos, deixados para trás.<br><br>
+    Na série, a Terra era uma dessas colônias de extração, alvo da rebelião das Crystal Gems.
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #ffffff;
+}
+
+.titulo {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 40px;
+  color: #ffcc00;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #000;
+  background: #000e8ac5;
+  border-bottom: 2px solid #1100ff;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000e8ac5;
+  color: #0400ff;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px 0;
+  margin: 0;
+  border-bottom: 2px solid #1100ff;
+  box-sizing: border-box;
+  z-index: 100;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff,
+               -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+form {
+  width: 320px;
+  padding: 20px;
+  background: #7e7100b3;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ffee00c0;
+  position: relative;
+  top: 160px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 90%;
+}
+
+form div {
+  margin-bottom: 12px;
+  background: #860000a1;
+  padding: 8px 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px #ff0000;
+}
+
+label {
+  display: block;
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+input[type="radio"] {
+  transform: scale(0.9);
+  margin-right: 6px;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding: 8px 20px;
+  background-color: #1fa0058f;
+  color: rgb(10, 88, 0);
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(3, 29, 0, 0.493);
+}
+
+#resultado {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00df1e8e;
+}
+
+.carta {
+  display: none;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carta h3 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+               -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.carta-imagem {
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.link-imagem {
+  margin-left: 8px;
+  font-size: 11px;
+  background: #17740070;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link-imagem:hover {
+  background: #0091008e;
+}
+
+.btn-voltar {
+  display: block;
+  margin: 0 auto 0px auto;
+  padding: 8px 16px;
+  background-color: #30303071;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', cursive, sans-serif;
+  font-style: italic;
+  transition: background-color 0.3s ease;
+}
+
+.btn-voltar {
+  position: absolute;
+  top: 100px;
+  left: 42%;
+}
+
+.btn-voltar:hover {
+  background-color: #fff3f38c;
+}
